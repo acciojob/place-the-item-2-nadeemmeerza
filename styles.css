@@ -1,11 +1,16 @@
 
 /* Your CSS Code here. */
 .holder{
-	
+	display:flex;
+	height:100vh;
+	justify-content:center;
+	align-items:center;
+	flex-wrap:wrap;
 }
 .box{
-	width:200px;
-	height:200px;
+	width:100px;
+	height:100px;
+	font-size:4rem
 }
 .green{
 	background-color:green;
